@@ -4,11 +4,15 @@
 
 // Code here
 
+const myName = 'Ryan'
+
 //////////////////PROBLEM 2////////////////////
 
 // Create a variable called 'faveNum' with a value that is your favorite number. 
 
 //Code here
+
+const faveNum = 19
 
 //////////////////PROBLEM 3////////////////////
 
@@ -16,11 +20,19 @@
 
 //Code here
 
+const lovesCode = true
+
+
 //////////////////PROBLEM 4////////////////////
 
 // Create a function called 'sum' that takes in two parameters, 'num1' and 'num2'. The function should return the sum of the two parameters.
 
 //Code here
+
+function sum(num1, num2) {
+	return num1 + num2
+}
+
 
 //////////////////PROBLEM 5////////////////////
 
@@ -28,17 +40,39 @@
 
 //Code here
 
+function lovesCodeChecker(x) {
+	if(x === true) {
+		return true
+	} else {
+		return false
+
+	}
+
+}
+
 //////////////////PROBLEM 6////////////////////
 
 // Create a function called 'oddChecker' that takes in one parameter, 'num'. Your function should check to see if the parameter is even or odd. If the parameter is odd, return 'the number is odd'. If the number is even, return 'the number is even'.
 
 //Code here
 
+function oddChecker(num) {
+	if (num %  2) {
+		return 'the number is odd'
+	} else {
+		return 'the number is even'
+	}
+}
+
+
 //////////////////PROBLEM 7////////////////////
 
 // Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. Have the function take the two parameters and return a string that says "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
 
 //Code Here
+
+// function iLove('name' , 'love')
+
 
 //////////////////PROBLEM 8////////////////////
 
@@ -47,11 +81,15 @@ const faveColors = ['red', 'green', 'black']
 
 //Code Here
 
+const colorCopy = faveColors.slice(0)
+
 //////////////////PROBLEM 9////////////////////
 
 // Add a fourth color to the end of the 'colorCopy' array using push.
 
 //Code Here
+
+colorCopy.push('pink')
 
 //////////////////PROBLEM 10////////////////////
 
@@ -60,11 +98,22 @@ const numbers = [1, 2, 3, 4, 5]
 
 //Code Here
 
+const middleNums = numbers.slice(1, 4)
+
 //////////////////PROBLEM 11////////////////////
 
 // Create an object called 'me' that has the following keys: firstName, state, age, and greeter. The value of the firstName key should be your name as a string. The value of the property state should be your current state or providence of residence as a string. The value of age should be your age as a number. greeter should be a method that returns the string 'Hello! My name is NAMEVALUE and I live in STATEVALUE' with the corresponding values. 
 
 //Code Here
+
+const me = {
+	firstName: 'Ryan',
+	state: 'Texas',
+	age: 19,
+	greeter: function() {
+		return 'Hello! My name is' + this.firstName + 'and I live in' + this.state
+	}
+}
 
 //////////////////PROBLEM 12////////////////////
 
@@ -72,11 +121,26 @@ const numbers = [1, 2, 3, 4, 5]
 
 // Code here
 
+// function bigOrSmall(arr = [1, 2, 3, 4]) {
+// 	let answers {
+		
+// 	}
+// }
+
+
 //////////////////PROBLEM 13////////////////////
 
 // Create a function called 'arrayReverser' that takes in one parameter, 'arr'. Inside of arrayReverser, create an empty array called 'reversed'. Using a for loop, loop over the passed in array IN REVERSE (this means your counter should decrement), and then add each item to the 'reversed' array variable you created. Finally, return the 'reversed' array variable. 
 
 //Code Here
+
+function arrayReverser(arr) {
+	let reversed = []
+	for(let i = reversed.length -1; i >= 0; i--) {
+		return reversed
+	}
+}
+
 
 //////////////////PROBLEM 14 - 18 Setup////////////////////
 
