@@ -6,6 +6,8 @@
 
 // CODE HERE
 
+let faveColors = ['blue', 'red', 'black']
+
 //////////////////Step 2////////////////////
 // Create an object called 'me' that has these keys: firstName, superHeroName, homeTown, superPowers, superPowerXP, and profileImage. 
 
@@ -22,6 +24,15 @@
 // The profileImage key value should be a method that returns this url `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`.
 
 // CODE HERE
+
+let me = {
+    firstName: 'Ryan',
+    superHeroName: 'Champion',
+    homeTown: 'McKinney',
+    superPowers: 'Invisibility',
+    superPowerXP: '90',
+    profileImage: '',
+}
 
 //////////////////Step 3////////////////////
 // In this step, you will create three variables that will hold some data from your me object. The first variable you create should be 'regularName', and it should receive its value from the value of your firstName key on the me object above. The next variable is 'superName' which should have its value assigned as the value of the superHeroName property on the me object. The last variable you should create is 'homeTown' which will be the value of homeTown on the me object

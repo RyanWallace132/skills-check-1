@@ -71,8 +71,10 @@ function oddChecker(num) {
 
 //Code Here
 
-
-
+function iLove(name, love) {
+	return name + 'loves' + love
+}
+// console.log(iLove(name, love))
 
 //////////////////PROBLEM 8////////////////////
 
@@ -121,6 +123,9 @@ const me = {
 
 // Code here
 
+function bigOrSmall(arr) {
+
+}
 
 
 
@@ -132,7 +137,7 @@ const me = {
 
 function arrayReverser(arr) {
 	let reversed = []
-	for(let i = reversed.length -1; i >= 0; i--) {
+	for(let i = arr.length - 1; i >= 0; i--) {
 		return reversed
 	}
 }
@@ -185,7 +190,7 @@ const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
 // Code Here
 
-const forTheLoveOfGeorge = notGeorge.map()
+const forTheLoveOfGeorge = notGeorge.map(notGeorge(item))
 
 //////////////////PROBLEM 19////////////////////
 
