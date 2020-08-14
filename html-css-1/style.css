@@ -1,0 +1,119 @@
+.header {
+    height: 0px;
+    width: 100%;
+    border-bottom: 10vh solid gray;
+    display: flex;
+    justify-content: flex-end;
+    /* padding-top: 0px; */
+    /* padding-left: 0vh; */
+}
+.navbar {
+    display: flex;
+    align-self: flex-end;
+    /* top: 10px; */
+    padding: 9px;
+    color: white;
+}
+.nav {
+    position: relative;
+    font-size: 20px;
+    margin-right: 50px;
+    padding-top: 30px;
+    right: 30vh;
+}
+.company {
+    font-size: 50px;
+    position: absolute;
+    left: 38vh;
+    top: 15px;
+    padding-bottom: 20px;
+}
+.second-header {
+    position: absolute;
+    top: 77px;
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+}
+.second-header-text {
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-size: 70px;
+}
+.box1 {
+    position: absolute;
+    border-radius: 25px;
+    left: 38vh;
+    top: 30vh;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(125, 245, 195);
+}
+.box2 {
+    position: absolute;
+    border-radius: 25px;
+    left: 80vh;
+    top: 30vh;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(125, 245, 195);
+}
+.box3 {
+    position: absolute;
+    border-radius: 25px;
+    right: 38vh;
+    top: 30vh;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(125, 245, 195);
+}
+.box4 {
+    position: absolute;
+    left: 38vh;
+    top: 55vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    width: 540px;
+    height: 150px;
+}
+.box5 {
+    position: absolute;
+    right: 38vh;
+    top: 55vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    width: 540px;
+    height: 150px;
+}
+.text {
+    position: absolute;
+    left: 50vh;
+    bottom: 10vh;
+    text-align: justify;
+}
+.bottom-header {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: #4734CB;
+    height: 70px;
+
+}
+.elephant {
+    width: 200px;
+    height: 150px;
+    position: fixed;
+    left: 120vh;
+    bottom: 10vh;
+}
