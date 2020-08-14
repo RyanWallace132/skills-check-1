@@ -71,7 +71,7 @@ function oddChecker(num) {
 
 //Code Here
 
-// function iLove('name' , 'love')
+
 
 
 //////////////////PROBLEM 8////////////////////
@@ -121,11 +121,7 @@ const me = {
 
 // Code here
 
-// function bigOrSmall(arr = [1, 2, 3, 4]) {
-// 	let answers {
-		
-// 	}
-// }
+
 
 
 //////////////////PROBLEM 13////////////////////
@@ -154,11 +150,17 @@ const myNumbers = [3, 55, 788, 2, 1]
 
 // Code Here
 
+const doubled = myNumbers.map(x => x * 2)
+
 //////////////////PROBLEM 15////////////////////
 
 // Now, use .filter to create a new array containing any numbers that are greater than 100. Call the new array 'filtered'. 
 
 // Code Here
+
+const filtered = myNumbers.filter((myNumbers) => {
+	return myNumbers.length > 100
+})
 
 //////////////////PROBLEM 16////////////////////
 
@@ -166,11 +168,15 @@ const myNumbers = [3, 55, 788, 2, 1]
 
 // Code Here
 
+const total = myNumbers.reduce(accumulator + currentValue) 
+
 //////////////////PROBLEM 17////////////////////
 
 // Finally, use .forEach to find the index of each item in the array. To begin, create an empty array called 'myNumbersIndex'. Then, use forEach to push each item's index from the myNumbers array into the newly created myNumbersIndex array. 
 
 // Code Here
+
+const myNumbersIndex = []
 
 //////////////////PROBLEM 18////////////////////
 
@@ -178,6 +184,8 @@ const myNumbers = [3, 55, 788, 2, 1]
 const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
 // Code Here
+
+const forTheLoveOfGeorge = notGeorge.map()
 
 //////////////////PROBLEM 19////////////////////
 
@@ -192,6 +200,11 @@ const people = [
 ]
 
 // Code Here
+
+const enemies = people.filter((name) => {
+	return name.friend === false
+
+})
 
 //////////////////PROBLEM 20////////////////////
 
